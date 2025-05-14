@@ -4,11 +4,8 @@
   "description": "Craft your Minecraft BE addons easialy with Artifex framework.",
   "main": "src/main.ts",
   "scripts": {
-    "watch": "inmine build minecraft --watch",
-    "watch:min": "inmine build minecraft --watch --min-scr",
-    "build": "inmine build build",
-    "build:prod": "inmine build build --min-scr",
-    "lint": "eslint \"./]/**/*.ts\""
+    "lint": "eslint \"./packages/**/*.ts\"",
+    "lint:fix": "eslint \"./packages/**/*.ts\" --fix"
   },
   "type": "module",
   "dependencies": {
