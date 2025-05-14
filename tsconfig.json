@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "module": "ES2020",
+    "target": "es2020",
+    "lib": ["es2020", "dom"],
+    "moduleResolution": "node",
+    "rootDir": ".",
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "declaration": false,
+    "noEmitHelpers": true,
+    "noLib": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": false,
+    "pretty": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "allowUnreachableCode": true,
+    "allowUnusedLabels": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": false,
+    "noImplicitUseStrict": false,
+    "listFiles": false,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "@artifex/core/*": ["packages/core/*"],
+      "@artifex/common/*": ["packages/common/*"],
+      "@artifex/events/*": ["packages/events/*"],
+      "@artifex/packs/*": ["packages/packs/*"],
+      "@artifex/world/*": ["packages/world/*"],
+      "@artifex/utils/*": ["packages/utils/*"]
+    }
+  },
+  "include": ["packages/**/*", "test/**/*"],
+  "exclude": ["node_modules"],
+  "compileOnSave": false
+}

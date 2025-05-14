@@ -1,0 +1,43 @@
+{
+  "name": "artifex",
+  "version": "0.1.0",
+  "description": "Craft your Minecraft BE addons easialy with Artifex framework.",
+  "main": "src/main.ts",
+  "scripts": {
+    "watch": "inmine build minecraft --watch",
+    "watch:min": "inmine build minecraft --watch --min-scr",
+    "build": "inmine build build",
+    "build:prod": "inmine build build --min-scr",
+    "lint": "eslint \"./]/**/*.ts\""
+  },
+  "type": "module",
+  "dependencies": {
+    "@minecraft/debug-utilities": "^1.0.0-beta.1.21.80-stable",
+    "@minecraft/server": "1.19.0",
+    "@minecraft/server-ui": "1.3.0",
+    "@minecraft/vanilla-data": "^1.21.80"
+  },
+  "devDependencies": {
+    "@eslint/config-array": "^0.20.0",
+    "@eslint/js": "^9.24.0",
+    "@eslint/object-schema": "^2.1.6",
+    "@stylistic/eslint-plugin-ts": "^4.2.0",
+    "@swc/core": "^1.11.16",
+    "@types/dotenv": "^6.1.1",
+    "@typescript-eslint/parser": "^8.29.0",
+    "esbuild-loader": "^4.1.0",
+    "eslint": "^9.24.0",
+    "eslint-config-prettier": "^10.1.2",
+    "eslint-import-resolver-typescript": "^4.3.1",
+    "eslint-plugin-import-x": "^4.10.3",
+    "eslint-plugin-prettier": "^5.2.6",
+    "eslint-plugin-unused-imports": "^4.1.4",
+    "prettier": "^3.2.4",
+    "source-map": "^0.7.4",
+    "strip-json-comments": "^5.0.1",
+    "ts-loader": "^9.5.1",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.3.3",
+    "typescript-eslint": "^8.29.0"
+  }
+}
