@@ -30,11 +30,12 @@ export default tseslint.config(
     rules: {
       curly: ['error', 'multi-line'],
       'no-unused-vars': 'off',
+      'no-empty': 'off',
       // @TODO: Remove this once we have a better way to handle types
       '@typescript-eslint/no-explicit-any': 'off',
       'unused-imports/no-unused-imports': 'error',
       '@typescript-eslint/no-empty-object-type': [
-        'error',
+        'off',
         { allowInterfaces: 'with-single-extends' },
       ],
       'unused-imports/no-unused-vars': [
