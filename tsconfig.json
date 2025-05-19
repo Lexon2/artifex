@@ -28,12 +28,12 @@
       "@artifex/core/*": ["packages/core/*"],
       "@artifex/common/*": ["packages/common/*"],
       "@artifex/events/*": ["packages/events/*"],
-      "@artifex/packs/*": ["packages/packs/*"],
+      "@artifex/pack/*": ["packages/pack/*"],
       "@artifex/world/*": ["packages/world/*"],
       "@artifex/utils/*": ["packages/utils/*"]
     }
   },
-  "include": ["packages/**/*", "test/**/*"],
+  "include": ["packages/**/*", "test/**/*", "artifex.config.mts"],
   "exclude": ["node_modules"],
   "compileOnSave": false
 }
